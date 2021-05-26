@@ -19,3 +19,7 @@ repos:
     rev: v2.13.0
     hooks:
     -   id: validate_manifest
+-   repo: https://github.com/zricethezav/gitleaks
+    rev: v7.5.0
+    hooks:
+    -   id: gitleaks
